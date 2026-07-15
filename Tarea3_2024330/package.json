@@ -1,0 +1,30 @@
+{
+  "name": "Tarea3_2024330",
+  "version": "1.0.0",
+  "description": "CRUDS",
+  "main": "index.js",
+    "scripts": {
+    "start": "tsx src/Index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.5.1",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/prompt-sync": "^4.2.3",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2"
+  }
+}
